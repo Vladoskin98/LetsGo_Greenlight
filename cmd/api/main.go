@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Vladoskin98/greenlight/internal/data"
 	"context"
 	"database/sql"
 	"flag"
@@ -29,6 +30,7 @@ type config struct {
 type application struct {
 	config config
 	logger *slog.Logger
+	models data.Models
 }
 
 func main() {
@@ -59,6 +61,7 @@ func main() {
 	app := &application{
 		config: cfg,
 		logger: logger,
+		models: data.NewModels(db),
 	}
 
 	// Declare a HTTP server which listens on the port provided in the config struct,
