@@ -15,3 +15,5 @@
 База данных - PostgreSQL.
 
 Данные принимаются / возвращаются в формате JSON.
+
+"Особенности": rate limiting, graceful shutdown, SQL migrations.
