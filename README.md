@@ -10,7 +10,7 @@
 | **GET**| /v1/movies/:id      | showMovieHandler | Получение информации о конкретном фильме |
 | **PATCH**| /v1/movies/:id      | updateMovieHandler | Измениние информации о конкретном фильме по id |
 | **DELETE**| /v1/movies/:id      | deleteMovieHandler | Удаление фильма по id  |
-| **POST**| /v1/users    | registerUserHandler | Регистрация нового пользователя |
+| **POST**| /v1/users    | registerUserHandler | Регистрация нового пользователя, уведомление по email |
 | **...**| .....      |....| Авторизация в процессе... |
 
 База данных - PostgreSQL.
