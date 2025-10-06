@@ -11,6 +11,7 @@
 | **PATCH**| /v1/movies/:id      | updateMovieHandler | Измениние информации о конкретном фильме по id |
 | **DELETE**| /v1/movies/:id      | deleteMovieHandler | Удаление фильма по id  |
 | **POST**| /v1/users    | registerUserHandler | Регистрация нового пользователя, уведомление по email |
+| **PUT**| /v1/users/activated    | activateUserHandler | Подтверждение учетной записи, "активация" пользователя |
 | **...**| .....      |....| Авторизация в процессе... |
 
 База данных - PostgreSQL.
