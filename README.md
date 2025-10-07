@@ -12,6 +12,7 @@
 | **DELETE**| /v1/movies/:id      | deleteMovieHandler | Удаление фильма по id  |
 | **POST**| /v1/users    | registerUserHandler | Регистрация нового пользователя, уведомление по email |
 | **PUT**| /v1/users/activated    | activateUserHandler | Подтверждение учетной записи, "активация" пользователя |
+| **POST**| /v1/tokens/authentication    | createAuthenticationTokenHandler | Генерация нового токена аутентификации |
 | **...**| .....      |....| Авторизация в процессе... |
 
 База данных - PostgreSQL.
